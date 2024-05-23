@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="container">
+      <br>
+        <div align="center"><h1> HTML Forms</h1></div>
+      <br>
+      <div id="form" align="left">
+        <form>
+          <div class="form-group" >
+            <label for="FName">FName</label>&nbsp;
+            <input type="text" class="form-control form-data" id="FName">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="MName">MName</label>&nbsp;
+            <input type="text" class="form-control form-data" id="MName">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="LName">LName</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control form-data" id="LName">
+          </div><br>
+          <div class="form-group">
+            <label for="Address">Address</label>
+            <input type="text" class="form-control form-data" id="Address">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Address">Address-2</label>
+            <input type="text" class="form-control form-data" id="Address">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="pincode">Pin-Code</label>&nbsp;&nbsp;
+            <input type="text" class="form-control form-data" id="pincode">
+          </div><br>
+          
+          <div class="form-group">
+            <label for="Age">Age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control form-data" id="Age">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Gender">Mobile no.</label>
+            <input type="text" class="form-control form-data" id="Gender">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Nationality">Nationality</label>
+            <input type="text" class="form-control form-data" id="Nationality">
+          </div><br>
+
+          <div class="form-group">
+            <label for="Email">Email</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control form-data" id="Email">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Company">Company</label>&nbsp;
+            <input type="text" class="form-control form-data" id="Company">
+          </div><br>
+
+          <div class="form-group">
+            <label for="Photo">Upload photo and sign</label><br>
+            <!-- <input type="button" class="form-control form-data" id="Photo"> -->
+            <button>Upload here</button>
+            
+          </div><br>
+
+          
+
+          <div class="form-group">
+            <p>Choose your Gender : </p>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            
+          </div><br>
+
+          <div class="form-group">
+            <p>Coding Languages you know : </p>
+            <input type="checkbox" id="Python" name="Python" value="Python">
+            <label for="Python">Python</label><br>
+            
+            <input type="checkbox" id="Java" name="Java" value="Java">
+            <label for="Java">Java</label><br>
+
+            <input type="checkbox" id="Kotlin" name="Kotlin" value="Kotlin">
+            <label for="Kotlin">Kotlin</label><br>
+
+            <input type="checkbox" id="SQL" name="SQL" value="SQL">
+            <label for="SQL">SQL</label><br>
+
+            <input type="checkbox" id="C" name="C" value="C">
+            <label for="C">C,C++</label><br>
+
+          </div><br>
+
+          
+          <button type="button" class="btn btn-primary" onclick="send_data()">Submit</button>
+        </form>
+      </div>
+
+      <!-- Optional if you want to give a completion feedback! -->
+      <div id="completion-msg" style="display: none;">
+        Thank you for completing this form!
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
